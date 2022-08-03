@@ -1,0 +1,25 @@
+@mixin list-unstyled {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+@mixin text-style {
+  font-weight: 300;
+  font-size: 13px;
+}
+@mixin link-style {
+  font-weight: 300;
+  font-size: 13px;
+  color: $link-color;
+}
+@mixin flex-center {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+@mixin flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+ 

@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HoMyRu</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/flexboxgrid.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="css/main.min.css" />
+  </head>
+
+  <body>
+
+    <!-- Header -->
+
+    <header class="site-header">
+      <nav class="top-nav">
+        <div class="container">
+          <ul class="top-nav__list">
+            <li class="top-nav__item"><a href="#" class="top-nav__link">Каталог<i class='bx bxs-down-arrow'></i></a></li>
+            <li class="top-nav__item"><a href="#" class="top-nav__link">О компании <i class='bx bxs-down-arrow'></i></a></li>
+            <li class="top-nav__item"><a href="#" class="top-nav__link">Оплата и доставка</a></li>
+            <li class="top-nav__item"><a href="#" class="top-nav__link">Гарантии и возврат</a></li>
+            <li class="top-nav__item"><a href="#" class="top-nav__link">Сотрудничество</a></li>
+            <li class="top-nav__item"><a href="#" class="top-nav__link">Услуги</a></li>
+            <li class="top-nav__item"><a href="#" class="top-nav__link">Решения</a></li>
+            <li class="top-nav__item"><a href="#" class="top-nav__link">Техподдержка</a></li>
+            <li class="top-nav__item"><a href="#" class="top-nav__link">Контакты</a></li>
+          </ul>
+          <div class="menu">
+            <i class='bx bx-menu' ></i>
+            <p class="menu__text">Меню</p>
+          </div>
+        </div>
+      </nav>
+      <div class="middle-nav">
+        <div class="container">
+          <div class="middle-nav__inner">
+            <div class="region">
+              <p class="region-text">Ваш регион: <span> Москва</span></p>
+            </div>
+            <div class="logins">
+              <a href="#" class="logins__link">Войти</a>
+              <a href="#" class="logins__link">Личный кабинет</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-nav">
+        <div class="container">
+          <div class="main-nav__inner row">
+            <div class="logo__box col-xs-4 col-sm-3 col-md-3">
+              <a href="#" class="logo__link">
+                <img class="logo" src="images/logo.png" alt="logo">
+                <p class="logo__desc">ОБОРУДОВАНИЕ И РЕШЕНИЯ ДЛЯ VOIP</p>
+              </a>
+            </div>
+            <div class="nav__contact col-xs-4 col-sm-3 col-md-3">
+              <a href="#" class="nav__contact__link">ОБРАТНЫЙ ЗВОНОК</a>
+              <div class="nav__contact__inner">
+                <a href="telto:" class="phone-number">+7 (495) 255-34-66</a>
+                <p class="contact__text">(пн-пт с 9 до 18 ч)</p>
+                <p class="contact__text"><i class='bx bxl-skype' ></i>skype-on.06</p>
+                <a href="#" class="skype-link">info@homy.ru</a>
+              </div>
+            </div>
+            <div class="search col-xs-4 col-sm-3 col-md-3">
+              <div class="search__top">
+                <i class='bx bx-ruble' ></i>
+                <p class="search-title"> <span>VOIP РЕШЕНИЯ </span> <br>  ДЛЯ ЭКОНОМНЫХ ЛЮДЕЙ</p>
+              </div>
+              <form class="nav__form">
+                <input class="nav__search" type="search" placeholder="Поиск по сайту">
+                <button class="nav__btn" type="submit">ИСКАТЬ</button>
+              </form>
+            </div>
+            <div class="basket col-xs-4 col-sm-3 col-md-3">
+              <div class="basket__top">
+                <i class='bx bx-cart' ></i>
+                <div class="basket__desc">
+                  <p class="basket__text">Корзина</p>
+                  <p class="basket__text"><span>4</span>/4 000p.</p>
+                </div>
+              </div>
+              <div class="basket__inner">
+                <div class="basket__inner--box">
+                  <i class='bx bxs-heart' ></i>
+                <p> Избранное</p> 
+                  <span>7</span>
+                </div>
+                <div class="basket__inner--box">
+                  <i class='bx bx-shuffle'></i>
+                 <p>Сравнение</p> 
+                  <span>2</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar">
+        <div class="container">
+            <ul class="nav__list">
+              <li class="nav__item"><a href="#" class="nav__link">VOIP  ОБОРУДОВАНИЕ</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">GSM  ОБОРУДОВАНИЕ</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">ТЕЛЕФОНИЯ GSM</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">ГАРНИТУРЫ ОБОРУДОВАНИЕ</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">СЕТЕВОЕ  ОБОРУДОВАНИЕ</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">ЭЛЕКТРОННЫЕ  ЗАМКИ</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">ДОМОФОНЫ и  телефон</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">Радио и  телефоны</a></li>
+              <li class="nav__item"><a href="#" class="nav__link"><i class='bx bxs-chevron-right' ></i></a></li>
+            </ul>
+        </div>
+      </nav>
+    </header>
+
+    
+    <main>
+
+      <!-- Hero -->
+
+      <div class="hero">
+        <div class="container">
+          <div class="hero__inner row">
+              <div class="news col-xs-4">
+                <h3 class="news__maintitle">НОВОСТИ КОМПАНИИ</h3>
+                <ul class="news__list">
+                  <li class="news__item">
+                    <div class="news__imgbox">
+                      <img src="images/news-img2.jpeg" alt="news-img">
+                      <div class="imgbox__desc">
+                        <p class="desc__num">15</p>
+                        <p class="desc__text">октября</p>
+                      </div>
+                    </div>
+                    <div class="news__desc">
+                      <h4 class="news__title">Сложности из-за нестабильного курса валют </h4>
+                      <p class="news__par">Нестабильный курс валют и возникающие вопросы</p>
+                    </div>
+                  </li>
+                  <li class="news__item">
+                    <div class="news__imgbox">
+                      <img src="images/news-img1.jpeg" alt="news-img">
+                      <div class="imgbox__desc">
+                        <p class="desc__num">07</p>
+                        <p class="desc__text">октября</p>
+                      </div>
+                    </div>
+                    <div class="news__desc">
+                      <h4 class="news__title">Новые телефоны Grandstream серии GRP2600 </h4>
+                      <p class="news__par">Grandstream серии GRP2600 - это  IP-телефоны операторского класса.</p>
+                    </div>
+                  </li>
+                  <li class="news__item">
+                    <div class="news__imgbox">
+                      <img src="images/news-img3.png" alt="news-img">
+                      <div class="imgbox__desc">
+                        <p class="desc__num">28</p>
+                        <p class="desc__text">сентября</p>
+                      </div>
+                    </div>
+                    <div class="news__desc">
+                      <h4 class="news__title">Новая прошивка для IP-телефонов Fanvil X5S/X6 </h4>
+                      <p class="news__par">Новая прошивка для IP-телефонов Fanvil X5S/X6</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="slider col-xs-8">
+                  <p class="slider__text"><b> БОЛЕЕ 2000 ТОВАРОВ</b> ОТ 40+ ПРОИЗВОДИТЕЛЕЙ В ОДНОМ МАГАЗИНЕ. <span>ЛЮБЫЕ РЕШЕНИЯ "ПОД КЛЮЧ"</span> </p>
+                  <img class="slider-img" src="images/slider-img.png" alt="slider-img">
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Novelty -->
+
+      <div class="novelty slider-parts">
+        <div class="container">
+          <div class="slider__top">
+            <h3 class="heading">НОВИНКИ</h3>
+            <div class="line"></div>
+            <a href="#" class="top__link">Все новинки</a>
+          </div>
+          <ul class="slider__list row">
+            <li class="slider__item col-xs-12 col-sm-4 col-md-3 first-item" ><a href="#" class="slider__link">
+              <div class="item__inner">
+                <div class="tag">
+                  <i class='bx bxs-bookmark' ></i>
+                  <p class="tag_p">NEW</p>
+                </div>
+                <img class="slider-cartimg" src="images/novelty-im1.jpeg" alt="novelty">
+                <h4 class="cart__title">WIFI SIP ТЕЛЕФОН GRANDSTREAM WP820</h4>
+                <p class="cart__price">Цена: <span>14 678.92 р.</span></p>
+                <div class="cart__btns">
+                  <button class="buy__btn"><i class='bx bx-cart' ></i> Купить</button>
+                  <button class="cart__btn">Подробнее</button>
+                </div>
+              </div>
+            </a>
+            </li>
+            <li class="slider__item col-xs-12 col-sm-4 col-md-3"><a href="#" class="slider__link">
+              <div class="item__inner">
+                <div class="tag">
+                  <i class='bx bxs-bookmark' ></i>
+                  <p class="tag_p">NEW</p>
+                </div>
+                <img class="slider-cartimg" src="images/novelty-img2.jpeg" alt="novelty">
+                <h4 class="cart__title">АВТОМОБИЛЬНЫЙ КОМПЛЕКТ VEGATEL AV1-900E/3G-KIT</h4>
+                <p class="cart__price">Цена:  <span>24 790 р.</span></p>
+                <div class="cart__btns">
+                  <button class="buy__btn"><i class='bx bx-cart' ></i> Купить</button>
+                  <button class="cart__btn">Подробнее</button>
+                </div>
+              </div>
+            </a></li>
+            <li class="slider__item col-xs-12 col-sm-4 col-md-3"><a href="#" class="slider__link">
+              <div class="item__inner">
+                <div class="tag">
+                  <i class='bx bxs-bookmark' ></i>
+                  <p class="tag_p">NEW</p>
+                </div>
+                <img class="slider-cartimg" src="images/novelty-img3.jpeg" alt="novelty">
+                <h4 class="cart__title">КУПОЛЬНАЯ УЛИЧНАЯ 4 В 1 ВИДЕОКАМЕРА NOVICAM LITE 27</h4>
+                <p class="cart__price">Цена: <span> 5 690 р.</span></p>
+                <div class="cart__btns">
+                  <button class="buy__btn"><i class='bx bx-cart' ></i> Купить</button>
+                  <button class="cart__btn">Подробнее</button>
+                </div>
+              </div>
+
+            </a></li>
+            <li class="slider__item col-xs-12 col-sm-4 col-md-3 last__item"><a href="#" class="slider__link">
+              <div class="item__inner">
+                <div class="tag">
+                  <i class='bx bxs-bookmark' ></i>
+                  <p class="tag_p">NEW</p>
+                </div>
+                <img class="slider-cartimg" src="images/novelty-img4.jpeg" alt="novelty">
+                <h4 class="cart__title">УЛИЧНАЯ ВИДЕОКАМЕРА NOVICAM LITE 58, 4 В 1 ПУЛЯ</h4>
+                <p class="cart__price">Цена: <span> 7 890 р.</span></p>
+                <div class="cart__btns">
+                  <button class="buy__btn"><i class='bx bx-cart' ></i> Купить</button>
+                  <button class="cart__btn">Подробнее</button>
+                </div>
+              </div>
+              
+            </a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Recomend -->
+
+      <div class="recomend slider-parts">
+        <div class="container">
+          <div class="slider__top">
+            <h3 class="heading"> РЕКОМЕНДУЕМ</h3>
+            <div class="line"></div>
+            <a href="#" class="top__link">Все рекомендации</a>
+          </div>
+          <ul class="slider__list row">
+            <li class="slider__item col-xs-12 col-sm-4 col-md-3 first-item" ><a href="#" class="slider__link">
+              <div class="item__inner">
+                <div class="tag">
+                  <i class='bx bxs-bookmark' ></i>
+                  <p class="tag_p"><i class='bx bx-like'></i></p>
+                </div>
+                <img class="slider-cartimg" src="images/recomend-img1.jpeg" alt="novelty">
+                <h4 class="cart__title">OPENVOX VS-GW1200-8S - VOIP-ШЛЮЗ, 8 FXS</h4>
+                <p class="cart__price">Цена: <span>13 836.69 р.</span></p>
+                <div class="cart__btns">
+                  <button class="buy__btn"><i class='bx bx-cart' ></i> Купить</button>
+                  <button class="cart__btn">Подробнее</button>
+                </div>
+              </div>
+            </a>
+            </li>
+            <li class="slider__item col-xs-12 col-sm-4 col-md-3"><a href="#" class="slider__link">
+              <div class="item__inner">
+                <div class="tag">
+                  <i class='bx bxs-bookmark' ></i>
+                  <p class="tag_p"><i class='bx bx-like'></i></p>
+                </div>
+                <img class="slider-cartimg" src="images/recomend-img2.png" alt="novelty">
+                <h4 class="cart__title">GRANDSTREAM GXW4104 - VOIP ШЛЮЗ, 4 FXO</h4>
+                <p class="cart__price">Цена:  <span> 13 235.09 р.</span></p>
+                <div class="cart__btns">
+                  <button class="buy__btn"><i class='bx bx-cart' ></i> Купить</button>
+                  <button class="cart__btn">Подробнее</button>
+                </div>
+              </div>
+            </a></li>
+            <li class="slider__item col-xs-12 col-sm-4 col-md-3"><a href="#" class="slider__link">
+              <div class="item__inner">
+                <div class="tag">
+                  <i class='bx bxs-bookmark' ></i>
+                  <p class="tag_p"><i class='bx bx-like'></i></p>
+                </div>
+                <img class="slider-cartimg" src="images/recomend-img3.jpeg" alt="novelty">
+                <h4 class="cart__title">КОМПЛЕКТ VEGATEL VT-900E-KIT (LED)</h4>
+                <p class="cart__price">Цена: <span> 13 900 р.</span></p>
+                <div class="cart__btns">
+                  <button class="buy__btn"><i class='bx bx-cart' ></i> Купить</button>
+                  <button class="cart__btn">Подробнее</button>
+                </div>
+              </div>
+
+            </a></li>
+            <li class="slider__item col-xs-12 col-sm-4 col-md-3 last__item"><a href="#" class="slider__link">
+              <div class="item__inner">
+                <div class="tag">
+                  <i class='bx bxs-bookmark' ></i>
+                  <p class="tag_p"><i class='bx bx-like'></i></p>
+                </div>
+                <img class="slider-cartimg" src="images/recomend-img4.jpeg" alt="novelty">
+                <h4 class="cart__title">IP ТЕЛЕФОН GRANDSTREAM GXP2160</h4>
+                <p class="cart__price">Цена: <span> 9 324.72 р.</span></p>
+                <div class="cart__btns">
+                  <button class="buy__btn"><i class='bx bx-cart' ></i> Купить</button>
+                  <button class="cart__btn">Подробнее</button>
+                </div>
+              </div>
+              
+            </a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Sale -->
+
+      <div class="sale slider-parts">
+        <div class="container">
+          <div class="slider__top">
+            <h3 class="heading"> РАСПРОДАЖА</h3>
+            <div class="line"></div>
+            <a href="#" class="top__link">Все товары</a>
+          </div>
+          <ul class="slider__list row">
+            <li class="slider__item col-xs-12 col-sm-4 col-md-3 first-item" ><a href="#" class="slider__link">
+              <div class="item__inner">
+                <div class="tag">
+                  <i class='bx bxs-bookmark' ></i>
+                  <p class="tag_p">%</p>
+                </div>
+                <img class="slider-cartimg" src="images/sale-img1.jpeg" alt="novelty">
+                <h4 class="cart__title">МОДУЛЬ РАСШИРЕНИЯ КЛАВИАТУРЫ GRANDSTREAM GXP2000EXT</h4>
+                <p class="cart__price">Цена: <span>4 151.01 р.</span></p>
+                <div class="cart__btns">
+                  <button class="buy__btn"><i class='bx bx-cart' ></i> Купить</button>
+                  <button class="cart__btn">Подробнее</button>
+                </div>
+              </div>
+            </a>
+            </li>
+            <li class="slider__item col-xs-12 col-sm-4 col-md-3"><a href="#" class="slider__link">
+              <div class="item__inner">
+                <div class="tag">
+                  <i class='bx bxs-bookmark' ></i>
+                  <p class="tag_p">%</p>
+                </div>
+                <img class="slider-cartimg" src="images/sale-img2.jpeg" alt="novelty">
+                <h4 class="cart__title">USB ФЛЭШ-ДИСК SKYPEMATE USB-M3K С ФУНКЦИЕЙ VOIP ТЕЛЕФОНА</h4>
+                <p class="cart__price">Цена:  <span> 1 800 р.</span></p>
+                <div class="cart__btns">
+                  <button class="buy__btn"><i class='bx bx-cart' ></i> Купить</button>
+                  <button class="cart__btn">Подробнее</button>
+                </div>
+              </div>
+            </a></li>
+            <li class="slider__item col-xs-12 col-sm-4 col-md-3"><a href="#" class="slider__link">
+              <div class="item__inner">
+                <div class="tag">
+                  <i class='bx bxs-bookmark' ></i>
+                  <p class="tag_p">%</p>
+                </div>
+                <img class="slider-cartimg" src="images/sale-img3.jpeg" alt="novelty">
+                <h4 class="cart__title">РУСИФИЦИРОВАННЫЙ DECT ТЕЛЕФОН DUALPHONE 3088RU</h4>
+                <p class="cart__price">Цена: <span>  850 р.</span></p>
+                <div class="cart__btns">
+                  <button class="buy__btn"><i class='bx bx-cart' ></i> Купить</button>
+                  <button class="cart__btn">Подробнее</button>
+                </div>
+              </div>
+
+            </a></li>
+            <li class="slider__item col-xs-12 col-sm-4 col-md-3 last__item"><a href="#" class="slider__link">
+              <div class="item__inner">
+                <div class="tag">
+                  <i class='bx bxs-bookmark' ></i>
+                  <p class="tag_p">%</p>
+                </div>
+                <img class="slider-cartimg" src="images/sale-img4.jpeg" alt="novelty">
+                <h4 class="cart__title">ГОРОДСКОЙ DECT ТЕЛЕФОН RTX DUALPHONE 4088RU BLACK</h4>
+                <p class="cart__price">Цена: <span> ЦЕНА 900 р.</span></p>
+                <div class="cart__btns">
+                  <button class="buy__btn"><i class='bx bx-cart' ></i> Купить</button>
+                  <button class="cart__btn">Подробнее</button>
+                </div>
+              </div>
+              
+            </a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Products -->
+
+      <div class="products slider-parts">
+        <div class="container">
+          <div class="slider__top">
+            <h3 class="heading"> ЧТО ПОКУПАЮТ ПРЯМО СЕЙЧАС</h3>
+            <div class="line"></div>
+            <a href="#" class="top__link">Все новинки</a>
+          </div>
+          <ul class="slider__list row">
+            <li class="slider__item col-xs-12 col-sm-4 col-md-3 first-item" ><a href="#" class="slider__link">
+              <div class="item__inner">
+                <img class="slider-cartimg" src="images/bought-img1.jpeg" alt="novelty">
+                <h4 class="cart__title">Yeastar TG200W VoIP-UMTS шлюз на 2 UMTS-канала</h4>
+              </div>
+            </a>
+            </li>
+            <li class="slider__item col-xs-12 col-sm-4 col-md-3"><a href="#" class="slider__link">
+              <div class="item__inner">
+                <img class="slider-cartimg" src="images/bought-img2.jpeg" alt="novelty">
+                <h4 class="cart__title">Yeastar NeoGate TG200- GSM-VoIP шлюз на 2 GSM канала</h4>
+              </div>
+            </a></li>
+            <li class="slider__item col-xs-12 col-sm-4 col-md-3"><a href="#" class="slider__link">
+              <div class="item__inner">
+                <img class="slider-cartimg" src="images/bought-img3.png" alt="novelty">
+                <h4 class="cart__title">Dinstar DWG2000B-8G - GSM-VoIP шлюз на 8 GSM каналов</h4>
+              </div>
+
+            </a></li>
+            <li class="slider__item col-xs-12 col-sm-4 col-md-3 last__item"><a href="#" class="slider__link">
+              <div class="item__inner">
+                <img class="slider-cartimg" src="images/bought-img4.jpeg" alt="novelty">
+                <h4 class="cart__title">Dinstar DWG2000E-4G-M- GSM-VoIP шлюз на 4 GSM канала</h4>
+              </div>
+              
+            </a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Brends -->
+
+        <div class="brends">
+          <div class="container">
+            <div class="slider__top">
+              <h3 class="heading"> НАШИ КЛЮЧЕВЫЕ БРЕНДЫ</h3>
+              <div class="line"></div>
+              <a href="#" class="top__link">Все бренды</a>
+            </div>
+            <div class="brends__row row">
+              <a href="#" class="brends__link col-xs-3 col-md-2"><img src="images/brend1.jpeg" alt="brend"></a>
+              <a href="#" class="brends__link col-xs-3 col-md-2"><img src="images/brend2.png" alt="brend"></a>
+              <a href="#" class="brends__link col-xs-3 col-md-2"><img src="images/brend3.jpeg" alt="brend"></a>
+              <a href="#" class="brends__link col-xs-3 col-md-2"><img src="images/brend4.jpeg" alt="brend"></a>
+              <a href="#" class="brends__link col-xs-3 col-md-2"><img src="images/brend5.jpeg" alt="brend"></a>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- STRENGTHS -->
+
+        <div class="strengths">
+          <div class="container">
+            <div class="strengths__inner">
+              <div class="slider__top">
+                <h3 class="heading">НАШИ СИЛЬНЫЕ СТОРОНЫ</h3>
+                <div class="line"></div>
+              </div>
+              <ul class="strengths__list row">
+                <li class="strenghts__item col-xs-6 col-sm-4 col-md-3">
+                  <div class="str__imgbox"> <img src="images/str1.png" alt=""></div>
+                  <p class="str__desc">ГРАМОТНАЯ КОНСУЛЬТАЦИЯ ПО
+                    КАЖДОМУ ТОВАРУ</p>
+                </li>
+                <li class="strenghts__item col-xs-6 col-sm-4 col-md-3">
+                  <div class="str__imgbox"> <img src="images/str2.png" alt=""></div>
+                  <p class="str__desc">ЛЮБЫЕ СПОСОБЫ
+                    ОПЛАТЫ</p>
+                </li>
+                <li class="strenghts__item col-xs-6 col-sm-4 col-md-3">
+                  <div class="str__imgbox"> <img src="images/str3.png" alt=""></div>
+                  <p class="str__desc">СОБСТВЕННЫЙ СЕРВИСНЫЙ
+                    ЦЕНТР</p>
+                </li>
+                <li class="strenghts__item col-xs-6 col-sm-4 col-md-3">
+                  <div class="str__imgbox"> <img src="images/str4.png" alt=""></div>
+                  <p class="str__desc">РАЗВЕТВЛЕННАЯ СЕТЬ
+                    САМОВЫВОЗА (PICKPOINT)</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Company -->
+
+        <div class="company">
+          <div class="container">
+            <div class="slider__top">
+              <h3 class="heading">НАШИ СИЛЬНЫЕ СТОРОНЫ</h3>
+              <div class="line"></div>
+            </div>
+            <div class="company__inner row">
+                <div class="company__does">
+
+                </div>
+                <div class="company__does green">
+                  
+                </div>
+            </div>
+          </div>
+        </div>
+
+    </main>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

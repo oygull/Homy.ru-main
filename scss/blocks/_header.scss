@@ -1,0 +1,288 @@
+.top-nav__list{
+ @include flex-between();
+  @include list-unstyled();
+}
+.top-nav{
+  background-color: #040e0e;
+}
+.top-nav__item{
+  padding: 10px 20px 10px 0;
+}
+.top-nav__link{
+  @include text-style();
+  display: flex;
+  align-items: center;
+  color: #bcc3c5;
+  text-decoration: none;
+
+      .bx{
+          margin-left: 10px;
+          color: $color-primary;
+      }
+}
+.middle-nav__inner{
+ @include flex-between();
+ margin: 12px 0;
+}
+.logins__link{
+  @include link-style();
+  margin-right: 10px;
+}
+.region-text{
+  @include text-style();
+
+    span{
+      text-decoration: dotted;
+      color: $link-color;
+    }
+}
+.menu{
+  display: none;
+}
+
+
+
+.main-nav__inner{
+ @include flex-between();
+}
+.logo{
+  width: 250px;
+  height: 50px;
+}
+.logo__link{
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo__desc{
+  color: #818588;
+  text-transform: uppercase;
+  letter-spacing: .8px;
+  font-size: 10px;
+}
+.nav__contact{
+  display: flex;
+  align-items: center;
+}
+.nav__contact__link{
+  width: 100px;
+  margin-right: 20px;
+  text-decoration: dotted;
+  color: $link-color;
+  font-size: 12px;
+  padding: 10px;
+  border: 2px solid #bcc3c5;
+  border-radius: 10px;
+}
+.phone-number{
+  text-decoration: none;
+  display: inline-block;
+  width: 180px;
+  font-size: 20px;
+  color: $title-color;
+}
+.contact__text{
+  @include text-style();
+  margin: 2px;
+    .bx{
+      color: #12abef ;
+    }
+}
+.skype-link{
+  @include link-style();
+}
+.search__top{
+  display: flex;
+  align-items: center;
+}
+.search-title{
+  font-size: 18px;
+  font-style: italic;
+  color: $title-color;
+
+    span{
+      color: $color-primary;
+    }
+}
+.nav__form{
+ @include flex-between();
+  background: #eff0f4;
+  border-radius: 3px;
+  padding: 2px;
+  height: 30px;
+}
+.nav__btn{
+  background-color: $color-primary;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 3px;
+  font-size: 12px;
+  height: 100%;
+  padding: 0 10px;
+}
+.search{
+  padding: 0 20px;
+}
+.nav__search{
+  border: none;
+  background-color: transparent;
+  font-size: 12px;
+  outline: none;
+
+    ::placeholder{
+      font-size: 12px
+    }
+}
+.basket__top{
+@include flex-between();
+ padding: 12px 15px;
+  border-radius: 10px;
+background-image: url('https://homy.ru/themes/homy/img/bgr_blue.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+padding: 10px 20px;
+margin: 10px;
+
+    .bx{
+      color: $color-primary;
+      font-size: 26px;
+    }
+}
+.basket__text{
+  margin: 10px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.basket__inner{
+@include flex-between();
+
+    &--box{
+      padding: 0 10px;
+      p{
+        font-size: 12px;
+      }
+      @include flex-center();
+
+        .bxs-heart{
+          color: #c65079;
+          font-size: 14px;
+          margin-right: 5px;
+        }
+        .bx-shuffle{
+          color: #48bc69;
+          font-size: 14px;
+          margin-right: 5px;
+        }
+        span{
+          color: $link-color;
+          font-size: 12px;
+          margin-left: 5px;
+        }
+    }
+}
+.nav__list{
+display: flex;
+@include list-unstyled();
+align-items: center;
+background-color: $color-primary;
+box-shadow: inset 0 -3px 0 0 #c44411;
+margin: 30px 0;
+border-radius: 8px;
+}
+.nav__link{
+  height: 100%;
+  font-size: 12px;
+  color: #fff;
+  padding: 0 10px;
+  text-decoration: none;
+  text-align: center;
+}
+.nav__item{
+  text-align: center;
+  padding: 10px;
+  height: 100%;
+  border-right: 1px solid rgba(255, 255, 255, 0.568);
+}
+.nav__item:hover{
+  background-color: #c4441188;
+}
+@media screen and (max-width: 1140px){
+  .search{
+    padding-left: 60px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .navbar{
+    display: none;
+  }
+  .top-nav__list{
+    display: none;
+  }
+  .basket__inner{
+    flex-direction: column;
+      &--box{
+        p{
+          margin: 4px;
+        }
+      }
+  }
+  .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      .bx{
+        color: $color-primary;
+        margin-right: 10px;
+        font-size: 30px;
+      }
+  }
+  .menu__text{
+    color: #bcc3c5;
+    font-size: 15px;
+  }
+  .search{
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 760px){
+  .nav__contact__link{
+    display: none;
+  }
+ 
+}
+
+@media screen and (max-width: 540px){
+  .nav__contact{
+    display: none;
+  }
+  .logo{
+    width: 170px !important;
+    height: 30px;
+  }
+  .main-nav__inner{
+    justify-content: space-evenly;
+  }
+
+  .logo__desc{
+    font-size: 8px;
+  }
+  .basket__top{
+    width: 120px;
+    margin: 0;
+  }
+  .basket__text{
+    font-size: 10px;
+  }
+  .logins__link{
+    font-size: 10px;
+  }
+  .region-text{
+    font-size: 10px;
+  }
+}
+
