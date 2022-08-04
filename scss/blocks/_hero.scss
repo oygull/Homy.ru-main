@@ -49,6 +49,10 @@
 .news__title{
   font-size: 13px;
   color: $link-color;
+
+    &:hover{
+      color: $color-primary;
+    }
 }
 .news__par{
   font-size: 13px;

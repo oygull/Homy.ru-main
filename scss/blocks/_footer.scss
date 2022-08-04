@@ -1,0 +1,49 @@
+footer{
+  padding-top: 50px;
+  background-color: #5c7389;
+  color: #fff;
+      .logo__desc{
+        color: #fff;
+        font-size: 8px;
+        margin-bottom: 30px;
+      }
+      .phone-number{
+        color: #fff;
+        margin-bottom: 20px;
+      }
+      .skype-link{
+        color: #c8d4dc;
+      }
+}
+.dark-logo{
+  width: 180px;
+  height: 37px;
+}
+.footer__par{
+  font-size: 15px;
+  color: #c8d4dc;
+  margin: 15px 0;
+}
+.footer__links{
+  font-size: 15px;
+  color: #c8d4dc;
+  margin: 15px 0;
+  display: block;
+}
+.footer__end{
+  background-color: #2c3e53;
+  padding: 6px 0;
+  margin-top: 20px;
+}
+.footer__endinner{
+  @include flex-between();
+
+    .footer__par{
+      width: 60%;
+      font-size: 12px;
+    }
+}
+.footer-img{
+  width: 88px;
+  height: 32px;
+}
